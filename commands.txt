@@ -1,0 +1,32 @@
+pwd: current path
+--help: help manual
+
+clear: clear screen
+
+cd: change directory
+.. up one
+. current
+/ root directory
+cd ../.. relative path
+cd -> home
+
+ls: list files
+
+echo: diplay along way (console.log)
+
+which ls: ls path
+
+flags: --help
+ls -l: long form output
+ls -l -a
+
+touch: create empty files
+.file: hidden file
+
+ls -a show hidden
+ls --ingnore=file_to_ignore (-I shortcut for --ignore)
+ls -sh (size in human readable)
+
+
+
+
