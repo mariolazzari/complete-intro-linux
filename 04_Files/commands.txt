@@ -1,0 +1,12 @@
+less: show and navigate file content
+
+more: older less
+
+cat: printout file content
+
+tail: output last 10 lines
+head: output first 10
+-n x: first/last x lines
+-f: watch mode
+
+mkdit -p: creates subfolders
