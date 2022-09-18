@@ -26,7 +26,37 @@ touch: create empty files
 ls -a show hidden
 ls --ingnore=file_to_ignore (-I shortcut for --ignore)
 ls -sh (size in human readable)
+ls -lsah
+
+cd ˜ goto home
+
+ctrl-r reverse search history
+
+tail (last 10 rows of a file)
+tail .bach_history
+tail -f .bach_history (watch mode)
 
 
+!! run last command (bang bang)
+ctrl l clear screen
 
+ctrl-shift-c/v on windows
 
+ctrl-a goto begininig
+ctrl-e goto end
+ctrl-k delete after
+ctrl-u delete before
+ctrl-y copy from buffer
+ctrl-l clear screen
+ctrl-r reverse search
+
+signals
+ctrl-c sigint stop operation
+ctrl-d sigquit quit entire program
+sigterm: terminate
+sigkill: terminate immediatly
+
+yes > /dev/null &
+ps aux | grep yes
+kill -9 pid
+kill -l show all signals
