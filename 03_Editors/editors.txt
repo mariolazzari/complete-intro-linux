@@ -1,0 +1,12 @@
+nano
+ctrl-o save
+ctrl-x quit
+
+vi/vim
+:q  quit
+:q! force quit
+i interactive mode
+esc command mode
+:w save
+:wq sava and quit
+:qa! force quit
