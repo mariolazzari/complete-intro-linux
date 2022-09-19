@@ -25,5 +25,23 @@ mv: move from to
 tar: group file without compression
 tar -cf archive.tar files_list
 tar -cfz z -> comprss tar file in .tar.gz
+tar -xfz extract file
+
+expansions:
+touch file{1,2,3,4}.txt creates 4 files
+touch file{1,2,3,}.txt last file: file.txt
+touch  file{1..30}.txt creates 30 files
+
+* all chars
+ls file-* find all file begining with file-
+
+? one char
+?? two chars
+
+echo {a..z} prints all letters
+echo {a..z..2} prints every 2 letters
+echo {0..100..10}
+echo {A..Z}{1..5}
+echo {A..Z}{1..5}{1..2}
 
 
