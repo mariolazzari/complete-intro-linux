@@ -9,4 +9,21 @@ head: output first 10
 -n x: first/last x lines
 -f: watch mode
 
-mkdit -p: creates subfolders
+mkdir -p: creates subfolders
+
+touch: create new file or update modfied time if alredy exists
+
+rm: remove file
+rm -r: remove dir
+rm -rf: force recursive delete
+
+cp: copy from to
+cp -R: recursive copy
+
+mv: move from to
+
+tar: group file without compression
+tar -cf archive.tar files_list
+tar -cfz z -> comprss tar file in .tar.gz
+
+
