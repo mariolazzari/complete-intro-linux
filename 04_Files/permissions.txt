@@ -1,0 +1,5 @@
+whoami: current user
+cat /etc/passwd
+
+sudo whoami
+
