@@ -1,5 +1,27 @@
 whoami: current user
 cat /etc/passwd
 
+
+sudo (super user do)
 sudo whoami
+
+sudo su
+
+
+
+sudo useradd mario: create new user
+sudo passwd mario: set password
+su mario
+whoami
+
+sudo usermod -aG sudo mario: add mario to sudo group
+
+rwx user rwx group rwx other
+
+sudo chown user:group (change ownwe user:group)
+
+sudo chmod u=rwx,g=rwx,o=rwx file.txt (change mod)
+sudo chmod 777
+sudo chmod +x  file.sh: add executable to a file
+
 
