@@ -1,0 +1,12 @@
+printenv print env vars
+
+$USER resolve var
+
+GREETING="Hello"
+cat $GREETING $USER
+
+.bashrc
+
+source restart .bashrc
+
+bash_profile  run on login
