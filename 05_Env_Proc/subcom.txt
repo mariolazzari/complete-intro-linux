@@ -1,0 +1,2 @@
+echo I thin $(whoami) is cool
+echo today is $(date)

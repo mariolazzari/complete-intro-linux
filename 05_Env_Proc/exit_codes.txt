@@ -1,0 +1,10 @@
+date
+echo $?
+0 (success)
+x (error)
+
+yes
+echo $?
+130
+
+touch status.txt && date >> status.txt && update >> status.txt
