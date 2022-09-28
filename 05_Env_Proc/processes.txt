@@ -1,0 +1,9 @@
+ps
+
+sleep 10 & ps (sleep10 seconds and ps list it)
+
+kill -SIGKILL pid
+
+ps aux (every process)
+ps aux | less
+ps aux | grep ps
