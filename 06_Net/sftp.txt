@@ -1,0 +1,9 @@
+sftp ip
+pwd
+lpwd local pwd
+put fromLocal toRemote
+!localCommand
+get fromRemote toLocal
+bye
+
+

@@ -1,0 +1,6 @@
+sudo useradd -s /bin/bash -m -g ubunu mario
+-s shell
+-m create home for user
+-g group
+
+
