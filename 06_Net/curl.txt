@@ -1,0 +1,7 @@
+curl url > file
+curl https://mariolazzari.it
+curl https://mariolazzari.it > mario.html
+
+curl -X POST url
+curl -d "this is a post body"
+const -X PUT -d "this is a put body"
