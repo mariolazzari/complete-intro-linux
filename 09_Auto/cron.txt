@@ -5,5 +5,9 @@ https://crontab.guru/
 
 
 crontab -e
+crontab -u user -e (run as user)
+
+
 * * * * * file_path
 5,25 * * * * every 5 and 25 min of each hour
+*/30 * * * * every 30 minutes
