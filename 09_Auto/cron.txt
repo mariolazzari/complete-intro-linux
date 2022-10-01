@@ -1,0 +1,9 @@
+/etc/cron.daily weekly monthly hourly
+
+link: crontad guru
+https://crontab.guru/
+
+
+crontab -e
+* * * * * file_path
+5,25 * * * * every 5 and 25 min of each hour
