@@ -4,4 +4,8 @@ curl https://mariolazzari.it > mario.html
 
 curl -X POST url
 curl -d "this is a post body"
-const -X PUT -d "this is a put body"
+curl -X PUT -d "this is a put body"
+curl -X DELETE
+
+curl -b "name=mario" (cookie)
+

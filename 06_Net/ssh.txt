@@ -3,4 +3,6 @@ sudo useradd -s /bin/bash -m -g ubunu mario
 -m create home for user
 -g group
 
-
+ssh-keygen -t rsa
+cd .ssh
+authorized_kyes

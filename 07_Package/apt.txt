@@ -1,0 +1,17 @@
+sudo apt install aptitude
+apt newer than apt-get
+
+sudo apt install lolcat
+sudo !! rerun previous command
+
+apt search str
+
+apt show package_name
+
+apt autoremove
+apt update
+
+apt list
+apt list --upgradable
+apt upgrade
+apt ull-upgrade

@@ -7,3 +7,9 @@ kill -SIGKILL pid
 ps aux (every process)
 ps aux | less
 ps aux | grep ps
+
+sleep 1000 & (background)
+jobs (list background jobs)
+fg 1 (put in foreground job 1)
+bg1
+jobs -l (list all jobs)

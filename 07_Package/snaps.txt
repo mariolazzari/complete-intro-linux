@@ -1,0 +1,5 @@
+snapd
+
+snap help
+snap install
+snap install --chanel=x/stable --classic
