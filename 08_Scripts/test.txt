@@ -1,0 +1,8 @@
+man test
+test -e file (check if file exists)
+test -eq
+test -gt
+test -ge
+test -lt
+test -le
+test 1 = 1
